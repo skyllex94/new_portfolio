@@ -1,0 +1,13 @@
+.logo {
+    font-family: "Yellowtail", cursive;
+    font-size: 24px;
+}
+
+nav a, a:hover, .nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    color: #646464;
+}
