@@ -3,11 +3,15 @@
     font-size: 24px;
 }
 
-nav a, a:hover, .nav-link{
+nav a, .nav-link{
     text-decoration: none;
     color: black;
 }
 
-.nav-link:hover {
+.nav-link:hover, .logo:hover {
     color: #646464;
+}
+
+.main-text {
+    font-family: "Inter", sans-serif;
 }
