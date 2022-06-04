@@ -39,6 +39,12 @@ nav a, .nav-link {
     z-index: -1;
 }
 
+/* .work_projects {
+    margin-top: 10vh;
+    height: 350px;
+    background-color: #eef6ff;
+} */
+
 h3 {
     padding-top: 15vh;
     font-family: "Inter", sans-serif;
@@ -50,6 +56,8 @@ h3 {
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
     border-radius: 25px !important;
+    max-height: 70vh;
+    height: inherit;
 }
 
 .card:hover {
@@ -63,4 +71,8 @@ h3 {
 
 .personal_projects {
     margin-top: 25vh;
+}
+
+.tint {
+    background-color: #eef6ff !important;
 }
