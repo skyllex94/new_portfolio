@@ -82,8 +82,26 @@ h3 {
     background-color: #eef6ff !important;
 }
 
+.skills {
+    margin-bottom: 7rem;
+}
+
+.skill {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
 .skill:hover {
-    background-color: #000000;
-    color: #ffffff;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.16), 0 10px 25px 0 rgba(0, 0, 0, 0.12);
     border-radius: 10px !important;
+}
+
+.skill i {
+    /* Control the size of the icons */
+    font-size: 2rem;
+}
+
+.about {
+    background-color: #eef6ff;
+    padding-bottom: 7rem;
 }
