@@ -105,3 +105,16 @@ h3 {
     background-color: #eef6ff;
     padding-bottom: 7rem;
 }
+
+.contact .col-md-4 {
+    border-radius: 25px !important;
+}
+
+.colored {
+    color: #2f0059;
+}
+
+.contact-link {
+    display: inline-block;
+    position: relative;
+}
