@@ -33,16 +33,19 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Personal Projects</a>
+                                <a class="nav-link" href="#work_projects">Work Projects</a>
                             </li>
                             <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Work Projects</a>
+                                <a class="nav-link" href="#personal_projects">Personal Projects</a>
                             </li>
                             <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Skills</a>
+                                <a class="nav-link" href="#skills">Skills</a>
                             </li>
                             <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#about">About Me</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -55,7 +58,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-3 pt-5">
-                    <img class="img-fluid rounded-circle profile" src="/img/me.jpg" alt="">
+                    <img class="img-fluid rounded-circle profile" src="/img/me.jpg">
                 </div>
             </div>
             <div class="row justify-content-center py-5">
@@ -67,10 +70,10 @@
         </div>
     </section>
 
-    <section class="work_projects text-center">
+    <section id="work_projects" class="work_projects text-center">
         <div class="container">
             <h3>Work Projects</h3>  
-            <p class="mb-5">Paid projects I have created and manage for clients</p>
+            <p class="mb-5 lead">Paid projects I have created and manage for clients</p>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-10">
                     <div class="card">
@@ -103,10 +106,10 @@
     </section>
    
 
-    <section class="personal_projects">
+    <section id="personal_projects" class="personal_projects">
         <div class="container text-center">
             <h3>Personal Projects</h3>
-            <p class="pb-5">Some of my personal completed projects I have worked to improve my skills</p>
+            <p class="pb-5 lead">Some of my personal completed projects I have worked to improve my skills</p>
 
             <div class="row justify-content-center pb-5">
                 <div class="col-md-4">
@@ -190,7 +193,7 @@
         </div>
     </section>
 
-    <section class="skills">
+    <section id="skills" class="skills">
         <div class="container text-center mt-5">
             <h3>Skills</h3>
             <p class="pb-5 lead">Some of the skills I have used, and acquired building projects</p>
@@ -265,7 +268,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="container mt-5">
             <h3 class="text-center">About Me</h3>
             <div class="row justify-content-center pt-3">
@@ -274,7 +277,7 @@
                         creating something out of nothing simply using pure logic is exiting and naturally keeps in focus and in the flow on hours on time.
                     </p>
                     <p class="lead">
-                        I believe that the way you truly build lasting skillset is by consistancy. I try to keep improving daily and bulding practical projects -
+                        I believe that the way you truly build lasting skillset is by consistency. I try to keep improving daily and building practical projects -
                         work or personal related. I've created several projects and taken multiple courses and recently obtained Harvard's CS50 Certificate,
                         which has a graduation rate of only 2% annually.
                     </p>
@@ -283,18 +286,17 @@
                         related to web development. For full review, please check my CV attached below.
                     </p>
                     <form>
-                        <a href="https://genetictest-sv.com/wp-content/uploads/2020/06/instruction.bg_.docx" class="btn btn-outline-dark"
-                            onclick="fileDownload()" download id="download">Download CV</a>
+                        <a target="_blank" href="/files/cv.pdf" class="btn btn-outline-dark">Download CV</a>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
         <div class="container text-center my-5">
             <h3>Contact</h3>
-            <p class="pb-5 lead">Here is some ways you can contact me and view more information</p>
+            <p class="pb-5 lead">Here is some ways you can contact me and view more information about me</p>
             <div class="row pb-5 g-3 justify-content-center">
                 <div class="col-md-8 tint p-4 d-flex align-items-center">
                     <span class="colored px-2">Full Name:</span>Kamen Kanchev
@@ -336,7 +338,5 @@
             <a class="text-white" href="index.html">Kamen Kanchev</a>
         </div>
     </footer>
-
-    
 </body>
 </html>
