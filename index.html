@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/img/icon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -12,14 +12,14 @@
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.m in.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous" defer></script>
     <title>Kamen's Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="container my-3">
+        <div class="container my-3" id="home">
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <div class="container-fluid">
                     <a class="navbar-brand logo" href="index.html">Kamen Kanchev</a>
@@ -30,7 +30,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item px-2">
                                 <a class="nav-link" href="#work_projects">Work Projects</a>
@@ -57,12 +57,12 @@
     <section id="primary pb-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-3 pt-5">
+                <div class="col-5 col-lg-3 col-xl-3 pt-5">
                     <img class="img-fluid rounded-circle profile" src="/img/me.jpg">
                 </div>
             </div>
             <div class="row justify-content-center py-5">
-                <div class="col-md-5 text-center main-text">
+                <div class="col-md-8 col-lg-6 col-xl-6 text-center main-text">
                     <h4>Hello, I'm Kamen &#128075;&#127995;</h4>
                     <h1>Building Web Apps, Brands & User Experience</h1>
                 </div>
@@ -75,7 +75,7 @@
             <h3>Work Projects</h3>  
             <p class="mb-5 lead">Paid projects I have created and manage for clients</p>
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-10">
+                <div class="col-xl-4 col-10">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title py-3">Genetic Test | Fingerprint Identification</h5>
@@ -112,7 +112,7 @@
             <p class="pb-5 lead">Some of my personal completed projects I have worked to improve my skills</p>
 
             <div class="row justify-content-center pb-5">
-                <div class="col-md-4">
+                <div class="col-lg-4 col-10 mb-3">
                     <div class="card tint text-center">
                         <div class="card-body">
                             <h5 class="card-title py-3">KK-Financial | Stock Portfolio Simulator</h5>
@@ -137,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-10 mb-3">
                     <div class="card tint text-center">
                         <div class="card-body">
                             <h5 class="card-title py-3">Boxing-Pro | Template Website for Selling</h5>
@@ -163,7 +163,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-10 mb-3">
                     <div class="card tint text-center">
                         <div class="card-body">
                             <h5 class="card-title py-3">Invader Push | Castle-protection Game (beta)</h5>
@@ -198,70 +198,70 @@
             <h3>Skills</h3>
             <p class="pb-5 lead">Some of the skills I have used, and acquired building projects</p>
             <div class="row pb-5 justify-content-start">
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-javascript-plain colored"></i><div class="px-2 lead">Javascript</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-react-original colored"></i><div class="px-2 lead">React.js</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-bootstrap-plain colored"></i><div class="px-2 lead">Bootstrap</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-flask-original colored"></i><div class="px-2 lead">Flask</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-sqlite-plain colored"></i><div class="px-2 lead">SQLite</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-python-plain colored"></i><div class="px-2 lead">Python</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-html5-plain colored"></i><div class="px-2 lead">HTML</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-css3-plain colored"></i><div class="px-2 lead">CSS</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-redux-original colored"></i><div class="px-2 lead">Redux</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-nodejs-plain colored"></i><div class="px-2 lead">Node.js</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-sass-original colored"></i><div class="px-2 lead">SASS</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-heroku-original colored"></i><div class="px-2 lead">Heroku</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-firebase-plain colored"></i><div class="px-2 lead">Firebase</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-git-plain colored"></i><div class="px-2 lead">Git</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-github-plain colored"></i><div class="px-2 lead">Github</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-c-plain colored"></i><div class="px-2 lead">C</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-unity-original colored"></i><div class="px-2 lead">Unity3D</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-csharp-plain colored"></i><div class="px-2 lead">C#</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-photoshop-plain colored"></i><div class="px-2 lead">Photoshop</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-premierepro-plain colored"></i><div class="px-2 lead">Premiere</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-aftereffects-plain colored"></i><div class="px-2 lead">After Effects</div>
                 </div>
-                <div class="col-md-2 p-4 rounded skill d-flex align-items-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 p-4 rounded skill d-flex align-items-center">
                     <i class="devicon-canva-original colored"></i><div class="px-2 lead">Canva</div>
                 </div>
             </div>
