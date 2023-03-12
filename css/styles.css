@@ -1,114 +1,134 @@
 header {
-    height: 15vh;
-    width: 100%;
+  height: 15vh;
+  width: 100%;
 }
 
 .primary {
-    height: 85vh;
-    width: 100%;
+  height: 85vh;
+  width: 100%;
 }
 
 .logo {
-    font-family: "Yellowtail", cursive;
-    font-size: 25px;
+  font-family: "Yellowtail", cursive;
+  font-size: 25px;
 }
 
-nav a, .nav-link {
-    text-decoration: none;
-    color: black !important;
+nav a,
+.nav-link {
+  text-decoration: none;
+  color: black !important;
 }
 
-.nav-link:hover, .logo:hover {
-    color: #646464 !important;
+.nav-link:hover,
+.logo:hover {
+  color: #646464 !important;
 }
 
 .main-text {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .work_projects::before {
-    /* Using the pseudo class before in order to avoid 
+  /* Using the pseudo class before in order to avoid 
     skewing all of the child elements */
-    margin-top: 10vh;
-    content: ''; display: block;
-    width: 100%; height: 100vh;
-    background-color: #eef6ff;
-    transform: skew(0deg, -3deg);
-    position: absolute;
-    transform-origin: left;
-    z-index: -1;
+  margin-top: 10vh;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 90vh;
+  background-color: #eef6ff;
+  transform: skew(0deg, -3deg);
+  position: absolute;
+  transform-origin: left;
+  z-index: -1;
+}
+
+/* Skewing effect for mobile version */
+@media only screen and (max-width: 800px) {
+  .work_projects::before {
+    height: 125vh;
+  }
+}
+
+/* Skewing effect for tablet version and up */
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  .work_projects::before {
+    height: 110vh;
+  }
 }
 
 h3 {
-    padding-top: 15vh;
-    font-family: "Inter", sans-serif;
+  padding-top: 15vh;
+  font-family: "Inter", sans-serif;
 }
 
 .card {
-    /* In order to create a transition on enter and on leave, place the transition properties 
+  /* In order to create a transition on enter and on leave, place the transition properties 
     on the actual class like this case, and place the hover effect on the hover */
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    border-radius: 25px !important;
-    height: 100%;
-    /* max-height: 70vh; */
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  border-radius: 25px !important;
+  height: 100%;
+  /* max-height: 70vh; */
 }
 
 .card-footer {
-    border: none;
-    padding-bottom: 1.5rem;
+  border: none;
+  padding-bottom: 1.5rem;
 }
 
 .card:hover {
-    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.16), 0 10px 25px 0 rgba(0, 0, 0, 0.12);
-    /* margin-top: 5px; */
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.16),
+    0 10px 25px 0 rgba(0, 0, 0, 0.12);
+  /* margin-top: 5px; */
 }
 
 .card-title {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .personal_projects {
-    margin-top: 25vh;
+  margin-top: 25vh;
 }
 
 .tint {
-    background-color: #eef6ff !important;
+  background-color: #eef6ff !important;
 }
 
 .skills {
-    margin-bottom: 7rem;
+  margin-bottom: 7rem;
 }
 
 .skill {
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
 
 .skill:hover {
-    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.16), 0 10px 25px 0 rgba(0, 0, 0, 0.12);
-    border-radius: 10px !important;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.16),
+    0 10px 25px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 10px !important;
 }
 
 .skill i {
-    /* Control the size of the icons */
-    font-size: 2rem;
+  /* Control the size of the icons */
+  font-size: 2rem;
 }
 
 .about {
-    background-color: #eef6ff;
-    padding-bottom: 7rem;
+  background-color: #eef6ff;
+  padding-bottom: 7rem;
 }
 
 .contact .col-md-4 {
-    border-radius: 25px !important;
+  border-radius: 25px !important;
 }
 
 .colored {
-    color: #2f0059;
+  color: #2f0059;
 }
 
 .contact-link {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
