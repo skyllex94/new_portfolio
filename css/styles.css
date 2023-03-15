@@ -35,7 +35,7 @@ nav a,
   content: "";
   display: block;
   width: 100%;
-  height: 90vh;
+  height: 105vh;
   background-color: #eef6ff;
   transform: skew(0deg, -3deg);
   position: absolute;
@@ -46,14 +46,14 @@ nav a,
 /* Skewing effect for mobile version */
 @media only screen and (max-width: 800px) {
   .work_projects::before {
-    height: 125vh;
+    height: 185vh;
   }
 }
 
 /* Skewing effect for tablet version and up */
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
   .work_projects::before {
-    height: 110vh;
+    height: 185vh;
   }
 }
 
@@ -67,7 +67,8 @@ h3 {
     on the actual class like this case, and place the hover effect on the hover */
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-  border-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
   height: 100%;
   /* max-height: 70vh; */
 }
@@ -80,11 +81,18 @@ h3 {
 .card:hover {
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.16),
     0 10px 25px 0 rgba(0, 0, 0, 0.12);
-  /* margin-top: 5px; */
 }
 
 .card-title {
   font-family: "Inter", sans-serif;
+}
+
+/* Thumbnail Images */
+.thumbnail {
+  display: block;
+  width: 100%;
+  height: 250px;
+  z-index: 2;
 }
 
 .personal_projects {
