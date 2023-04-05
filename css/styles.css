@@ -49,6 +49,7 @@ nav a,
 
 .gentest_thumbnail {
   object-fit: contain;
+  height: auto;
 }
 
 /* Skewing effect for mobile version */
