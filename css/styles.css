@@ -43,13 +43,13 @@ nav a,
   z-index: -1;
 }
 
-.todolify_thumbnail {
-  object-fit: cover;
-}
-
-.gentest_thumbnail {
+.gentest_thumbnail,
+.todolify_thumbnail,
+.kk-financial_thumbnail,
+.dev_cv_builder_thumbnail {
   object-fit: contain;
   height: auto;
+  width: auto;
 }
 
 /* Skewing effect for mobile version */
