@@ -43,6 +43,10 @@ nav a,
   z-index: -1;
 }
 
+.todolify_thumbnail {
+  width: auto;
+}
+
 /* Skewing effect for mobile version */
 @media only screen and (max-width: 800px) {
   .work_projects::before {
