@@ -44,7 +44,11 @@ nav a,
 }
 
 .todolify_thumbnail {
-  width: auto;
+  object-fit: cover;
+}
+
+.gentest_thumbnail {
+  object-fit: contain;
 }
 
 /* Skewing effect for mobile version */
