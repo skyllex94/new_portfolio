@@ -55,13 +55,13 @@ nav a,
 /* Skewing effect for mobile version */
 @media only screen and (max-width: 480px) {
   .work_projects::before {
-    height: 250vh;
+    height: 330vh;
   }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 800px) {
   .work_projects::before {
-    height: 185vh;
+    height: 255vh;
   }
 }
 
